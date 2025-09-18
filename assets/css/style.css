@@ -84,7 +84,8 @@ section.entrada {
 }
 
 /* 🎞️ Animações */
-h1, img {
+h1,
+img {
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -105,6 +106,7 @@ img {
     transform: translateX(-100vw);
     opacity: 0;
   }
+
   to {
     transform: translateX(0);
     opacity: 1;
@@ -116,6 +118,7 @@ img {
     transform: translateX(100vw);
     opacity: 0;
   }
+
   to {
     transform: translateX(0);
     opacity: 1;
@@ -155,3 +158,4 @@ footer a {
     width: 100px;
   }
 }
+
